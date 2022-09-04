@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Finding Business Day
+   $ BusinessHours.next_day # Next Business Day
+   $ BusinessHours.previous_day # Previous Business Day
+
+Check Business Day
+   $ BusinessHours.is? # true if business_day
 
 ## Development
 
