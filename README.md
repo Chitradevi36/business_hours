@@ -23,11 +23,17 @@ Or install it yourself as:
 ## Usage
 
 Finding Business Day
+
+```ruby
    $ BusinessHours.next_day # Next Business Day
    $ BusinessHours.previous_day # Previous Business Day
+```
 
 Check Business Day
+
+```ruby
    $ BusinessHours.is? # true if business_day
+```
 
 ## Development
 
