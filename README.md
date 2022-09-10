@@ -35,6 +35,12 @@ Check Business Day
    $ BusinessHours.is? # true if business_day
 ```
 
+Add n Business Days
+
+```ruby
+   $ BusinessHours.add_days(n, DateTime.now) # date is optional default it takes today's date
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
